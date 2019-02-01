@@ -9,6 +9,8 @@ def csvImport (csv):
     return :
     dataframe
     '''
+    csv_file = pd.read_csv(csv)
+    return cvs_file
     pass
 
 def jsonImport (json):
