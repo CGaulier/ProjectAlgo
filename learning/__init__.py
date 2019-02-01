@@ -11,7 +11,6 @@ def csvImport (csv):
     '''
     csv_file = pd.read_csv(csv)
     return cvs_file
-    pass
 
 def jsonImport (json):
     '''
