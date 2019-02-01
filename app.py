@@ -11,6 +11,6 @@ app = Flask(__name__)
 
 bp = Blueprint('auth', __name__, url_prefix='/auth')
 
-@app.route('/')
+@app.route('/', methods=['POST', 'GET'])
 def hello_world():
     return render_template('home.html')
