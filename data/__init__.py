@@ -8,7 +8,9 @@ def weekDay (date):
     return : 
     jour de la semaine (int)
     '''
-    pass
+    dateDay = pd.datetime.dt.day
+    return dateDay
+    
     
 
 def titleSeparation (title):
@@ -47,3 +49,5 @@ def catIdentification (category, categoryJson):
     code en int
     '''
     pass
+
+weekDay("2018-05-05")
