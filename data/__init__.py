@@ -1,7 +1,3 @@
-
-
-
-
 def weekDay (date):
     '''
     détermine le jour de la semaine
